@@ -1,0 +1,5 @@
+flask
+pycryptodome
+requests
+PyPDF2
+reportlab
