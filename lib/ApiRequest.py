@@ -4,7 +4,7 @@ import json
 API_URL = ''
 
 
-def getPdfpath(data):
+def getpdfpath(data):
     try:
         response = requests.post(API_URL, data=data,
                              headers={"Content-Type": "application/x-www-form-urlencoded","Cookie":""})
